@@ -1,24 +1,56 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Jacob Barker - Portfolio
+
+A modern, multimedia-focused portfolio website showcasing videojournalism work from CBC Windsor.
+
+## Features
+
+- **Projects Showcase** - Display video, audio, text, and interactive journalism pieces
+- **About Page** - Professional bio and coverage areas
+- **Blog** - Articles about journalism, storytelling, and process
+- **Contact Form** - Get story tips and collaboration requests
+- **Responsive Design** - Optimized for all devices
+- **Media Optimized** - Configured for video, audio, and image content
+
+## Tech Stack
+
+- Next.js 15 (App Router)
+- TypeScript
+- Tailwind CSS
+- React 19
 
 ## Getting Started
 
-First, run the development server:
+Install dependencies and run the development server:
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to see your portfolio.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `app/` - Pages and routing (home, projects, about, blog, contact)
+- `components/` - Reusable React components
+- `public/` - Static assets (images, videos, etc.)
+
+## Customization
+
+### Adding Projects
+
+Edit `app/projects/page.tsx` to add your journalism pieces. Each project can include:
+- Title, description, and date
+- Media type (video, audio, text, interactive)
+- Tags and categories
+- Links to published work
+
+### Updating Content
+
+- Homepage: `app/page.tsx`
+- About page: `app/about/page.tsx`
+- Blog posts: `app/blog/page.tsx`
+- Contact info: `app/contact/page.tsx`
 
 ## Learn More
 
