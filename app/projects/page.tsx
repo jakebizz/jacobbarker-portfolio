@@ -225,9 +225,6 @@ export default function ProjectsPage() {
               <Link href="/about" className="text-xs font-black text-gray-600 hover:text-[#D6B98C] transition-colors uppercase tracking-widest">
                 About
               </Link>
-              <Link href="/blog" className="text-xs font-black text-gray-600 hover:text-[#D6B98C] transition-colors uppercase tracking-widest">
-                Blog
-              </Link>
               <Link href="/contact" className="text-xs font-black text-gray-600 hover:text-[#D6B98C] transition-colors uppercase tracking-widest">
                 Contact
               </Link>

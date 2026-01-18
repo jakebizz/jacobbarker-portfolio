@@ -58,9 +58,6 @@ export default function ContactPage() {
             <Link href="/about" className="text-gray-700 hover:text-[#D6B98C] transition-colors font-medium">
               About
             </Link>
-            <Link href="/blog" className="text-gray-700 hover:text-[#D6B98C] transition-colors font-medium">
-              Blog
-            </Link>
             <Link href="/contact" className="text-[#1F2933] font-medium">
               Contact
             </Link>

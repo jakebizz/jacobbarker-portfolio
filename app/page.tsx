@@ -23,9 +23,6 @@ export default function Home() {
             <Link href="/about" className="text-sm font-bold text-gray-600 hover:text-[#D6B98C] transition-colors uppercase tracking-wide">
               About
             </Link>
-            <Link href="/blog" className="text-sm font-bold text-gray-600 hover:text-[#D6B98C] transition-colors uppercase tracking-wide">
-              Blog
-            </Link>
             <Link href="/contact" className="text-sm font-bold text-gray-600 hover:text-[#D6B98C] transition-colors uppercase tracking-wide">
               Contact
             </Link>
