@@ -8,20 +8,23 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-8 py-6">
           <div className="flex justify-between items-center">
             <Link href="/" className="flex flex-col leading-none">
-              <span className="text-sm font-black text-[#1F2933] tracking-wider uppercase">Jacob</span>
-              <span className="text-sm font-black text-[#1F2933] tracking-wider uppercase">Barker</span>
+              <span className="text-sm font-black text-[#0F172A] tracking-wider uppercase">Jacob</span>
+              <span className="text-sm font-black text-[#0F172A] tracking-wider uppercase">Barker</span>
             </Link>
             <div className="flex gap-10">
-              <Link href="/showreel" className="text-xs font-black text-gray-600 hover:text-[#D6B98C] transition-colors uppercase tracking-widest">
+              <Link href="/journey" className="text-xs font-black text-gray-600 hover:text-[#2563EB] transition-colors uppercase tracking-widest">
+                Journey
+              </Link>
+              <Link href="/showreel" className="text-xs font-black text-gray-600 hover:text-[#2563EB] transition-colors uppercase tracking-widest">
                 Showreel
               </Link>
-              <Link href="/projects" className="text-xs font-black text-gray-600 hover:text-[#D6B98C] transition-colors uppercase tracking-widest">
+              <Link href="/projects" className="text-xs font-black text-gray-600 hover:text-[#2563EB] transition-colors uppercase tracking-widest">
                 Projects
               </Link>
-              <Link href="/about" className="text-xs font-black text-[#D6B98C] uppercase tracking-widest">
+              <Link href="/about" className="text-xs font-black text-[#2563EB] uppercase tracking-widest">
                 About
               </Link>
-              <Link href="/contact" className="text-xs font-black text-gray-600 hover:text-[#D6B98C] transition-colors uppercase tracking-widest">
+              <Link href="/contact" className="text-xs font-black text-gray-600 hover:text-[#2563EB] transition-colors uppercase tracking-widest">
                 Contact
               </Link>
             </div>
@@ -33,7 +36,7 @@ export default function AboutPage() {
         <div className="max-w-6xl mx-auto px-8 relative z-10">
           {/* Hero */}
           <div className="mb-24 animate-fadeInUp">
-            <h1 className="text-7xl md:text-8xl font-black text-[#1F2933] mb-8 leading-none tracking-tight uppercase">
+            <h1 className="text-7xl md:text-8xl font-black text-[#0F172A] mb-8 leading-none tracking-tight uppercase">
               About
             </h1>
             <p className="text-3xl text-gray-700 font-bold leading-tight max-w-4xl">
@@ -44,7 +47,7 @@ export default function AboutPage() {
           {/* Main Content */}
           <div className="max-w-none animate-fadeInUp delay-100">
             <div className="bg-white rounded-3xl p-12 mb-16 shadow-xl">
-              <h2 className="text-4xl font-black text-[#1F2933] mb-6 uppercase tracking-tight">My Journey</h2>
+              <h2 className="text-4xl font-black text-[#0F172A] mb-6 uppercase tracking-tight">My Journey</h2>
               <p className="text-gray-700 leading-relaxed mb-6 text-lg">
                 Since graduating from the British Columbia Institute of Technology's broadcast journalism
                 program in 2010, I've been working as a video journalist. My career has taken me across
@@ -65,7 +68,7 @@ export default function AboutPage() {
               </p>
             </div>
 
-            <h2 className="text-5xl font-black text-[#1F2933] mb-4 uppercase tracking-tight animate-fadeInUp delay-200">
+            <h2 className="text-5xl font-black text-[#0F172A] mb-4 uppercase tracking-tight animate-fadeInUp delay-200">
               Career Journey
             </h2>
             <p className="text-gray-700 mb-16 text-xl font-bold uppercase tracking-wide animate-fadeInUp delay-200">14+ years telling stories across Canada</p>
@@ -73,20 +76,20 @@ export default function AboutPage() {
             {/* Timeline */}
             <div className="relative mb-16">
               {/* Timeline line */}
-              <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-gradient-to-b from-[#D6B98C] via-[#D6B98C] to-transparent"></div>
+              <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-gradient-to-b from-[#2563EB] via-[#2563EB] to-transparent"></div>
 
               {/* Timeline items */}
               <div className="space-y-12">
                 {/* 2020 - Present: Windsor */}
                 <div className="relative pl-20">
-                  <div className="absolute left-5 top-2 w-6 h-6 bg-[#D6B98C] rounded-full border-4 border-white shadow-lg"></div>
-                  <div className="bg-gradient-to-br from-gray-50 to-white border-2 border-[#D6B98C] rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow">
+                  <div className="absolute left-5 top-2 w-6 h-6 bg-[#2563EB] rounded-full border-4 border-white shadow-lg"></div>
+                  <div className="bg-gradient-to-br from-gray-50 to-white border-2 border-[#2563EB] rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow">
                     <div className="flex items-center gap-2 mb-2">
-                      <span className="bg-[#D6B98C] text-white text-xs font-bold px-3 py-1 rounded-full">CURRENT</span>
+                      <span className="bg-[#2563EB] text-white text-xs font-bold px-3 py-1 rounded-full">CURRENT</span>
                       <span className="text-sm font-medium text-gray-500">2020 - Present · 5 years</span>
                     </div>
-                    <h3 className="text-xl font-bold text-[#1F2933] mb-1">Video Journalist/Producer</h3>
-                    <p className="text-[#D6B98C] font-semibold mb-3 flex items-center gap-2">
+                    <h3 className="text-xl font-bold text-[#0F172A] mb-1">Video Journalist/Producer</h3>
+                    <p className="text-[#2563EB] font-semibold mb-3 flex items-center gap-2">
                       <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
@@ -95,19 +98,19 @@ export default function AboutPage() {
                     </p>
                     <ul className="text-sm text-gray-700 space-y-2 mb-3">
                       <li className="flex items-start gap-2">
-                        <span className="text-[#D6B98C] mt-1">•</span>
+                        <span className="text-[#2563EB] mt-1">•</span>
                         <span>Research, pitch, produce, shoot, and edit stories for evening news and digital platforms</span>
                       </li>
                       <li className="flex items-start gap-2">
-                        <span className="text-[#D6B98C] mt-1">•</span>
+                        <span className="text-[#2563EB] mt-1">•</span>
                         <span>Serve as backup producer and evening website producer</span>
                       </li>
                       <li className="flex items-start gap-2">
-                        <span className="text-[#D6B98C] mt-1">•</span>
+                        <span className="text-[#2563EB] mt-1">•</span>
                         <span>CBC AI Trainer, shaping journalism workflow integration</span>
                       </li>
                       <li className="flex items-start gap-2">
-                        <span className="text-[#D6B98C] mt-1">•</span>
+                        <span className="text-[#2563EB] mt-1">•</span>
                         <span>Multi-platform filing: FTP, Dejero live shots, radio, and web content</span>
                       </li>
                     </ul>
@@ -125,11 +128,11 @@ export default function AboutPage() {
 
                 {/* 2015 - 2020: Labrador */}
                 <div className="relative pl-20">
-                  <div className="absolute left-5 top-2 w-6 h-6 bg-[#D6B98C] rounded-full border-4 border-white shadow-lg opacity-80"></div>
+                  <div className="absolute left-5 top-2 w-6 h-6 bg-[#2563EB] rounded-full border-4 border-white shadow-lg opacity-80"></div>
                   <div className="bg-white border border-gray-200 rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow">
                     <div className="text-sm font-medium text-gray-500 mb-2">2015 - 2020 · 5 years</div>
-                    <h3 className="text-xl font-bold text-[#1F2933] mb-1">Video Journalist</h3>
-                    <p className="text-[#D6B98C] font-semibold mb-3 flex items-center gap-2">
+                    <h3 className="text-xl font-bold text-[#0F172A] mb-1">Video Journalist</h3>
+                    <p className="text-[#2563EB] font-semibold mb-3 flex items-center gap-2">
                       <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
@@ -138,15 +141,15 @@ export default function AboutPage() {
                     </p>
                     <ul className="text-sm text-gray-700 space-y-2">
                       <li className="flex items-start gap-2">
-                        <span className="text-[#D6B98C] mt-1">•</span>
+                        <span className="text-[#2563EB] mt-1">•</span>
                         <span>Solo videojournalist covering Canada's remote eastern coast</span>
                       </li>
                       <li className="flex items-start gap-2">
-                        <span className="text-[#D6B98C] mt-1">•</span>
+                        <span className="text-[#2563EB] mt-1">•</span>
                         <span>Covered Indigenous communities, resource development, and northern issues</span>
                       </li>
                       <li className="flex items-start gap-2">
-                        <span className="text-[#D6B98C] mt-1">•</span>
+                        <span className="text-[#2563EB] mt-1">•</span>
                         <span>Developed expertise in remote field production and satellite filing</span>
                       </li>
                     </ul>
@@ -155,11 +158,11 @@ export default function AboutPage() {
 
                 {/* 2012 - 2015: NWT */}
                 <div className="relative pl-20">
-                  <div className="absolute left-5 top-2 w-6 h-6 bg-[#D6B98C] rounded-full border-4 border-white shadow-lg opacity-60"></div>
+                  <div className="absolute left-5 top-2 w-6 h-6 bg-[#2563EB] rounded-full border-4 border-white shadow-lg opacity-60"></div>
                   <div className="bg-white border border-gray-200 rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow">
                     <div className="text-sm font-medium text-gray-500 mb-2">2012 - 2015 · 3 years</div>
-                    <h3 className="text-xl font-bold text-[#1F2933] mb-1">Video Journalist</h3>
-                    <p className="text-[#D6B98C] font-semibold mb-3 flex items-center gap-2">
+                    <h3 className="text-xl font-bold text-[#0F172A] mb-1">Video Journalist</h3>
+                    <p className="text-[#2563EB] font-semibold mb-3 flex items-center gap-2">
                       <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
@@ -168,15 +171,15 @@ export default function AboutPage() {
                     </p>
                     <ul className="text-sm text-gray-700 space-y-2">
                       <li className="flex items-start gap-2">
-                        <span className="text-[#D6B98C] mt-1">•</span>
+                        <span className="text-[#2563EB] mt-1">•</span>
                         <span>First posting covering Canada's North and Arctic issues</span>
                       </li>
                       <li className="flex items-start gap-2">
-                        <span className="text-[#D6B98C] mt-1">•</span>
+                        <span className="text-[#2563EB] mt-1">•</span>
                         <span>Reported on territorial politics, mining, and northern communities</span>
                       </li>
                       <li className="flex items-start gap-2">
-                        <span className="text-[#D6B98C] mt-1">•</span>
+                        <span className="text-[#2563EB] mt-1">•</span>
                         <span>Built foundation in one-person-band videojournalism</span>
                       </li>
                     </ul>
@@ -188,7 +191,7 @@ export default function AboutPage() {
                   <div className="absolute left-5 top-2 w-6 h-6 bg-gray-400 rounded-full border-4 border-white shadow-lg opacity-50"></div>
                   <div className="bg-white border border-gray-200 rounded-xl p-6 shadow-sm">
                     <div className="text-sm font-medium text-gray-500 mb-2">2011 - 2012 · 1 year</div>
-                    <h3 className="text-lg font-bold text-[#1F2933] mb-1">ENG Camera Operator & Editor</h3>
+                    <h3 className="text-lg font-bold text-[#0F172A] mb-1">ENG Camera Operator & Editor</h3>
                     <p className="text-gray-600 font-semibold mb-2 flex items-center gap-2">
                       <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
@@ -205,7 +208,7 @@ export default function AboutPage() {
                   <div className="absolute left-5 top-2 w-6 h-6 bg-gray-400 rounded-full border-4 border-white shadow-lg opacity-40"></div>
                   <div className="bg-white border border-gray-200 rounded-xl p-6 shadow-sm">
                     <div className="text-sm font-medium text-gray-500 mb-2">2010 - 2012 · 2 years</div>
-                    <h3 className="text-lg font-bold text-[#1F2933] mb-1">Video Journalist & Section Editor</h3>
+                    <h3 className="text-lg font-bold text-[#0F172A] mb-1">Video Journalist & Section Editor</h3>
                     <p className="text-gray-600 font-semibold mb-2 flex items-center gap-2">
                       <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
@@ -227,7 +230,7 @@ export default function AboutPage() {
                       </svg>
                       <span className="text-sm font-medium text-gray-500">2008 - 2010</span>
                     </div>
-                    <h3 className="text-lg font-bold text-[#1F2933] mb-1">Broadcast Journalism Student</h3>
+                    <h3 className="text-lg font-bold text-[#0F172A] mb-1">Broadcast Journalism Student</h3>
                     <p className="text-blue-700 font-semibold mb-2">British Columbia Institute of Technology (BCIT)</p>
                     <p className="text-sm text-gray-700">Foundation training in multi-platform journalism, video production, and storytelling</p>
                   </div>
@@ -235,38 +238,38 @@ export default function AboutPage() {
               </div>
             </div>
 
-            <h2 className="text-4xl font-black text-[#1F2933] mb-10 uppercase tracking-tight">Coverage Areas</h2>
+            <h2 className="text-4xl font-black text-[#0F172A] mb-10 uppercase tracking-tight">Coverage Areas</h2>
             <div className="grid md:grid-cols-2 gap-6 mb-20">
               <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
-                <h3 className="text-xl font-black text-[#1F2933] mb-3 uppercase tracking-wide">Community Impact</h3>
+                <h3 className="text-xl font-black text-[#0F172A] mb-3 uppercase tracking-wide">Community Impact</h3>
                 <p className="text-gray-600 leading-relaxed">
                   Local infrastructure, municipal projects, and decisions that affect Windsor-Essex residents
                 </p>
               </div>
               <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
-                <h3 className="text-xl font-black text-[#1F2933] mb-3 uppercase tracking-wide">Human Interest</h3>
+                <h3 className="text-xl font-black text-[#0F172A] mb-3 uppercase tracking-wide">Human Interest</h3>
                 <p className="text-gray-600 leading-relaxed">
                   Personal stories that highlight the experiences and challenges of our community members
                 </p>
               </div>
               <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
-                <h3 className="text-xl font-black text-[#1F2933] mb-3 uppercase tracking-wide">Social Issues</h3>
+                <h3 className="text-xl font-black text-[#0F172A] mb-3 uppercase tracking-wide">Social Issues</h3>
                 <p className="text-gray-600 leading-relaxed">
                   Policy, immigration, healthcare, and other issues affecting local families and individuals
                 </p>
               </div>
               <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
-                <h3 className="text-xl font-black text-[#1F2933] mb-3 uppercase tracking-wide">Investigative</h3>
+                <h3 className="text-xl font-black text-[#0F172A] mb-3 uppercase tracking-wide">Investigative</h3>
                 <p className="text-gray-600 leading-relaxed">
                   In-depth reporting on regulatory matters, environmental concerns, and public accountability
                 </p>
               </div>
             </div>
 
-            <h2 className="text-4xl font-black text-[#1F2933] mb-10 uppercase tracking-tight">Skills & Tools</h2>
+            <h2 className="text-4xl font-black text-[#0F172A] mb-10 uppercase tracking-tight">Skills & Tools</h2>
             <div className="space-y-10 mb-20">
               <div>
-                <h3 className="text-2xl font-black text-[#1F2933] mb-6 uppercase tracking-wide">Technical Skills</h3>
+                <h3 className="text-2xl font-black text-[#0F172A] mb-6 uppercase tracking-wide">Technical Skills</h3>
                 <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
                   {[
                     "AVID Editing",
@@ -278,7 +281,7 @@ export default function AboutPage() {
                   ].map((skill) => (
                     <div
                       key={skill}
-                      className="bg-[#1F2933] px-6 py-4 rounded-xl text-center text-white font-black text-sm uppercase tracking-wider hover:bg-[#D6B98C] transition-colors"
+                      className="bg-[#0F172A] px-6 py-4 rounded-xl text-center text-white font-black text-sm uppercase tracking-wider hover:bg-[#2563EB] transition-colors"
                     >
                       {skill}
                     </div>
@@ -286,7 +289,7 @@ export default function AboutPage() {
                 </div>
               </div>
               <div>
-                <h3 className="text-2xl font-black text-[#1F2933] mb-6 uppercase tracking-wide">Journalism Skills</h3>
+                <h3 className="text-2xl font-black text-[#0F172A] mb-6 uppercase tracking-wide">Journalism Skills</h3>
                 <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
                   {[
                     "News Reporting",
@@ -298,7 +301,7 @@ export default function AboutPage() {
                   ].map((skill) => (
                     <div
                       key={skill}
-                      className="bg-[#1F2933] px-6 py-4 rounded-xl text-center text-white font-black text-sm uppercase tracking-wider hover:bg-[#D6B98C] transition-colors"
+                      className="bg-[#0F172A] px-6 py-4 rounded-xl text-center text-white font-black text-sm uppercase tracking-wider hover:bg-[#2563EB] transition-colors"
                     >
                       {skill}
                     </div>
@@ -306,7 +309,7 @@ export default function AboutPage() {
                 </div>
               </div>
               <div>
-                <h3 className="text-2xl font-black text-[#1F2933] mb-6 uppercase tracking-wide">Additional Capabilities</h3>
+                <h3 className="text-2xl font-black text-[#0F172A] mb-6 uppercase tracking-wide">Additional Capabilities</h3>
                 <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
                   {[
                     "CBC AI Trainer",
@@ -319,7 +322,7 @@ export default function AboutPage() {
                   ].map((skill) => (
                     <div
                       key={skill}
-                      className="bg-[#1F2933] px-6 py-4 rounded-xl text-center text-white font-black text-sm uppercase tracking-wider hover:bg-[#D6B98C] transition-colors"
+                      className="bg-[#0F172A] px-6 py-4 rounded-xl text-center text-white font-black text-sm uppercase tracking-wider hover:bg-[#2563EB] transition-colors"
                     >
                       {skill}
                     </div>
@@ -329,7 +332,7 @@ export default function AboutPage() {
             </div>
 
             <div className="grid md:grid-cols-2 gap-8">
-              <div className="bg-gradient-to-br from-[#D6B98C] to-[#C4A676] rounded-3xl p-10 shadow-2xl text-white">
+              <div className="bg-gradient-to-br from-[#2563EB] to-[#1E40AF] rounded-3xl p-10 shadow-2xl text-white">
                 <h2 className="text-3xl font-black mb-6 uppercase tracking-tight">CBC Windsor</h2>
                 <p className="leading-relaxed mb-8 text-lg">
                   Currently working as a videojournalist with CBC's Windsor bureau, covering stories
@@ -340,16 +343,16 @@ export default function AboutPage() {
                   href="https://www.cbc.ca/news/canada/windsor/author/jacob-barker-1.3516281"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block bg-white text-[#1F2933] px-8 py-4 rounded-xl hover:bg-gray-100 transition-colors font-black uppercase tracking-wider text-sm shadow-lg"
+                  className="inline-block bg-white text-[#0F172A] px-8 py-4 rounded-xl hover:bg-gray-100 transition-colors font-black uppercase tracking-wider text-sm shadow-lg"
                 >
                   View My CBC Profile
                 </a>
               </div>
 
-              <div className="bg-white rounded-3xl p-10 shadow-2xl border-2 border-[#1F2933]">
-                <h2 className="text-3xl font-black text-[#1F2933] mb-6 uppercase tracking-tight">Education & Training</h2>
+              <div className="bg-white rounded-3xl p-10 shadow-2xl border-2 border-[#0F172A]">
+                <h2 className="text-3xl font-black text-[#0F172A] mb-6 uppercase tracking-tight">Education & Training</h2>
                 <div className="mb-6">
-                  <h3 className="text-xl font-black text-[#1F2933] uppercase tracking-wide">British Columbia Institute of Technology</h3>
+                  <h3 className="text-xl font-black text-[#0F172A] uppercase tracking-wide">British Columbia Institute of Technology</h3>
                   <p className="text-gray-600 mb-2 font-bold">Diploma of Technology, Broadcast Journalism</p>
                   <p className="text-sm text-gray-500 mb-4 font-bold">2008 - 2010</p>
                   <p className="text-gray-700 leading-relaxed">
@@ -359,7 +362,7 @@ export default function AboutPage() {
                   </p>
                 </div>
                 <div className="border-t-2 border-gray-200 pt-6">
-                  <h3 className="text-xl font-black text-[#1F2933] uppercase tracking-wide">Professional Training</h3>
+                  <h3 className="text-xl font-black text-[#0F172A] uppercase tracking-wide">Professional Training</h3>
                   <div className="mt-3">
                     <p className="text-gray-700 font-bold">AVID Media Composer Certification</p>
                     <p className="text-gray-500 text-sm mt-1">Industry-standard editing system for broadcast journalism</p>
@@ -371,8 +374,8 @@ export default function AboutPage() {
         </div>
       </main>
 
-      <footer className="relative bg-[#1F2933] text-white py-20 mt-32">
-        <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-[#D6B98C] to-transparent"></div>
+      <footer className="relative bg-[#0F172A] text-white py-20 mt-32">
+        <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-[#2563EB] to-transparent"></div>
         <div className="max-w-7xl mx-auto px-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-8">
             <div className="flex flex-col items-center md:items-start">
@@ -380,7 +383,7 @@ export default function AboutPage() {
               <p className="text-gray-400 text-sm">Videojournalist · CBC Windsor</p>
             </div>
             <div className="flex gap-8">
-              <a href="https://www.cbc.ca/news/canada/windsor/author/jacob-barker-1.3516281" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-[#D6B98C] transition-colors text-xs font-black uppercase tracking-widest">
+              <a href="https://www.cbc.ca/news/canada/windsor/author/jacob-barker-1.3516281" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-[#2563EB] transition-colors text-xs font-black uppercase tracking-widest">
                 CBC Profile
               </a>
             </div>

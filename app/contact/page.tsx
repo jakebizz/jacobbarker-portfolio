@@ -43,22 +43,25 @@ export default function ContactPage() {
   return (
     <div className="min-h-screen bg-white">
       {/* Navigation */}
-      <nav className="fixed top-0 w-full bg-white/95 backdrop-blur-sm border-b-4 border-[#D6B98C] z-50 shadow-sm">
+      <nav className="fixed top-0 w-full bg-white/95 backdrop-blur-sm border-b-4 border-[#2563EB] z-50 shadow-sm">
         <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-          <Link href="/" className="text-xl font-bold text-[#1F2933]">
+          <Link href="/" className="text-xl font-bold text-[#0F172A]">
             Jacob Barker
           </Link>
           <div className="flex gap-8">
-            <Link href="/showreel" className="text-gray-700 hover:text-[#D6B98C] transition-colors font-medium">
+            <Link href="/journey" className="text-gray-700 hover:text-[#2563EB] transition-colors font-medium">
+              Journey
+            </Link>
+            <Link href="/showreel" className="text-gray-700 hover:text-[#2563EB] transition-colors font-medium">
               Showreel
             </Link>
-            <Link href="/projects" className="text-gray-700 hover:text-[#D6B98C] transition-colors font-medium">
+            <Link href="/projects" className="text-gray-700 hover:text-[#2563EB] transition-colors font-medium">
               Projects
             </Link>
-            <Link href="/about" className="text-gray-700 hover:text-[#D6B98C] transition-colors font-medium">
+            <Link href="/about" className="text-gray-700 hover:text-[#2563EB] transition-colors font-medium">
               About
             </Link>
-            <Link href="/contact" className="text-[#1F2933] font-medium">
+            <Link href="/contact" className="text-[#0F172A] font-medium">
               Contact
             </Link>
           </div>
@@ -68,7 +71,7 @@ export default function ContactPage() {
       <main className="pt-32 pb-20">
         <div className="max-w-4xl mx-auto px-6">
           <div className="mb-12">
-            <h1 className="text-5xl font-bold text-[#1F2933] mb-4">Get in Touch</h1>
+            <h1 className="text-5xl font-bold text-[#0F172A] mb-4">Get in Touch</h1>
             <p className="text-xl text-gray-600">
               Have a story tip or want to collaborate? I'd love to hear from you.
             </p>
@@ -79,7 +82,7 @@ export default function ContactPage() {
             <div>
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div>
-                  <label htmlFor="name" className="block text-sm font-medium text-[#1F2933] mb-2">
+                  <label htmlFor="name" className="block text-sm font-medium text-[#0F172A] mb-2">
                     Name
                   </label>
                   <input
@@ -89,13 +92,13 @@ export default function ContactPage() {
                     value={formData.name}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#D6B98C] focus:border-transparent outline-none transition-all"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#2563EB] focus:border-transparent outline-none transition-all"
                     placeholder="Your name"
                   />
                 </div>
 
                 <div>
-                  <label htmlFor="email" className="block text-sm font-medium text-[#1F2933] mb-2">
+                  <label htmlFor="email" className="block text-sm font-medium text-[#0F172A] mb-2">
                     Email
                   </label>
                   <input
@@ -105,13 +108,13 @@ export default function ContactPage() {
                     value={formData.email}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#D6B98C] focus:border-transparent outline-none transition-all"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#2563EB] focus:border-transparent outline-none transition-all"
                     placeholder="your@email.com"
                   />
                 </div>
 
                 <div>
-                  <label htmlFor="subject" className="block text-sm font-medium text-[#1F2933] mb-2">
+                  <label htmlFor="subject" className="block text-sm font-medium text-[#0F172A] mb-2">
                     Subject
                   </label>
                   <select
@@ -120,7 +123,7 @@ export default function ContactPage() {
                     value={formData.subject}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#D6B98C] focus:border-transparent outline-none transition-all"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#2563EB] focus:border-transparent outline-none transition-all"
                   >
                     <option value="">Select a subject</option>
                     <option value="story-tip">Story Tip</option>
@@ -132,7 +135,7 @@ export default function ContactPage() {
                 </div>
 
                 <div>
-                  <label htmlFor="message" className="block text-sm font-medium text-[#1F2933] mb-2">
+                  <label htmlFor="message" className="block text-sm font-medium text-[#0F172A] mb-2">
                     Message
                   </label>
                   <textarea
@@ -142,7 +145,7 @@ export default function ContactPage() {
                     onChange={handleChange}
                     required
                     rows={6}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#D6B98C] focus:border-transparent outline-none transition-all resize-none"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#2563EB] focus:border-transparent outline-none transition-all resize-none"
                     placeholder="Your message..."
                   />
                 </div>
@@ -150,7 +153,7 @@ export default function ContactPage() {
                 <button
                   type="submit"
                   disabled={status === "sending"}
-                  className="w-full bg-[#D6B98C] text-white px-6 py-3 rounded-lg hover:bg-[#C4A676] transition-colors font-medium disabled:opacity-50 disabled:cursor-not-allowed"
+                  className="w-full bg-[#2563EB] text-white px-6 py-3 rounded-lg hover:bg-[#C4A676] transition-colors font-medium disabled:opacity-50 disabled:cursor-not-allowed"
                 >
                   {status === "sending" ? "Sending..." : status === "sent" ? "Message Sent!" : "Send Message"}
                 </button>
@@ -166,16 +169,16 @@ export default function ContactPage() {
             {/* Contact Info */}
             <div>
               <div className="bg-gray-50 rounded-lg p-8 mb-6">
-                <h2 className="text-xl font-bold text-[#1F2933] mb-4">Other Ways to Connect</h2>
+                <h2 className="text-xl font-bold text-[#0F172A] mb-4">Other Ways to Connect</h2>
                 <div className="space-y-4">
                   <div>
-                    <h3 className="font-medium text-[#1F2933] mb-1">CBC Windsor</h3>
+                    <h3 className="font-medium text-[#0F172A] mb-1">CBC Windsor</h3>
                     <p className="text-gray-600 text-sm">
                       For news tips or story ideas related to CBC coverage
                     </p>
                   </div>
                   <div>
-                    <h3 className="font-medium text-[#1F2933] mb-1">Social Media</h3>
+                    <h3 className="font-medium text-[#0F172A] mb-1">Social Media</h3>
                     <p className="text-gray-600 text-sm">
                       Connect with me on professional networks
                     </p>
@@ -184,7 +187,7 @@ export default function ContactPage() {
               </div>
 
               <div className="bg-red-50 border border-red-200 rounded-lg p-8">
-                <h3 className="text-lg font-bold text-[#1F2933] mb-3">Story Tips</h3>
+                <h3 className="text-lg font-bold text-[#0F172A] mb-3">Story Tips</h3>
                 <p className="text-gray-700 text-sm leading-relaxed mb-4">
                   Have a story idea about Windsor-Essex? I'm always looking for important
                   community stories that deserve attention. Your tips can remain anonymous
