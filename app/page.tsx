@@ -59,7 +59,7 @@ export default function Home() {
               <span className="text-[#2563EB]">That Moves Communities</span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-700 mb-8 leading-relaxed animate-fadeInUp delay-200 font-medium">
-              14+ years producing Emmy-caliber video journalism for CBC News. Specialized in field production, multi-platform storytelling, and breaking news coverage across Canada.
+              14+ years producing Emmy-caliber video journalism for CBC News, specializing in field production, multi-platform storytelling, and breaking news coverage across Canada.
             </p>
             <div className="flex flex-wrap gap-4 mb-10 animate-fadeInUp delay-300">
               <div className="flex items-center gap-2 bg-white px-5 py-3 rounded-xl shadow-md border border-gray-200">
@@ -70,13 +70,13 @@ export default function Home() {
               </div>
               <div className="flex items-center gap-2 bg-white px-5 py-3 rounded-xl shadow-md border border-gray-200">
                 <svg className="w-5 h-5 text-[#2563EB]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2zm0 0l2-2m0 0l2 2m-2-2v4" />
                 </svg>
                 <span className="text-sm font-black text-gray-700 uppercase tracking-wide">Field Production</span>
               </div>
               <div className="flex items-center gap-2 bg-white px-5 py-3 rounded-xl shadow-md border border-gray-200">
                 <svg className="w-5 h-5 text-[#2563EB]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.832c4.1 0 7.625-1.234 9.168-3v14c-1.543-1.766-5.067-3-9.168-3H7a3.988 3.988 0 01-1.564-.317z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 5.882V19.24a1.76 1.76 0 01-3.417.592l-2.147-6.15M18 13a3 3 0 100-6M5.436 13.683A4.001 4.001 0 017 6h1.83" />
                 </svg>
                 <span className="text-sm font-black text-gray-700 uppercase tracking-wide">Breaking News</span>
               </div>
@@ -90,7 +90,7 @@ export default function Home() {
               </Link>
               <Link
                 href="/showreel"
-                className="group px-10 py-5 rounded-xl font-black text-base border-2 border-[#0F172A] text-[#0F172A] hover:bg-[#0F172A] hover:text-white transition-all hover:shadow-xl flex items-center gap-3 uppercase tracking-widest"
+                className="group px-10 py-5 rounded-xl font-black text-base border-2 border-[#0F172A] text-[#0F172A] hover:bg-[#0F172A] hover:text-white transition-all hover:shadow-xl flex items-center gap-3"
               >
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M8 5v14l11-7z" />
@@ -304,7 +304,7 @@ export default function Home() {
                   <div className="absolute top-5 right-5">
                     <div className="w-12 h-12 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center border border-white/30 shadow-xl">
                       <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V5a2 2 0 012-2h5.586" />
                       </svg>
                     </div>
                   </div>
@@ -334,7 +334,7 @@ export default function Home() {
                   <div className="absolute top-5 right-5">
                     <div className="w-12 h-12 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center border border-white/30 shadow-xl">
                       <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V5a2" />
                       </svg>
                     </div>
                   </div>
@@ -364,7 +364,7 @@ export default function Home() {
                   <div className="absolute top-5 right-5">
                     <div className="w-12 h-12 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center border border-white/30 shadow-xl">
                       <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V5a2" />
                       </svg>
                     </div>
                   </div>
@@ -382,7 +382,7 @@ export default function Home() {
             <div className="mt-20 flex justify-center animate-fadeInUp delay-700">
               <Link
                 href="/projects"
-                className="group relative inline-flex items-center gap-3 bg-[#0F172A] text-white px-12 py-6 rounded-2xl font-black text-lg hover:bg-[#2563EB] transition-all duration-500 overflow-hidden shadow-xl hover:shadow-2xl"
+                className="group relative inline-flex items-center gap-3 bg-[#0F172A] text-white px-12 py-6 rounded-2xl font-black text-lg hover:bg-[#2563EB] transition-all duration-500 overflow-hidden"
               >
                 <span className="relative z-10 uppercase tracking-wider">View All Projects</span>
                 <svg className="w-6 h-6 relative z-10 group-hover:translate-x-2 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
